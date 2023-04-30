@@ -19,5 +19,6 @@ public class HelloWorld : SmartContract
             this.PersistentState.SetString("Greeting", value);
         }
     }
+
     public string SayHello() => Greeting;
 }
